@@ -1,24 +1,44 @@
-# 🌸 K-Means Clustering: Analyzing the Iris Dataset  
+# 🌸 Análise de Cluster com KMeans - Dataset Iris
 
-Welcome to my K-Means clustering project! In this notebook, I use **Python** and **Google Colab** to perform clustering analysis on the famous **Iris Dataset**. 🧪  
+🇧🇷 **Português** | 🇺🇸 [English version below ⬇️](#english-version)
 
-## 🌟 **Project Overview**  
-This project showcases the practical implementation of the **K-Means algorithm**, a popular unsupervised machine learning technique.  
-The steps include:  
-1. Loading and exploring the Iris dataset.  
-2. Applying the K-Means clustering algorithm.  
-3. Visualizing clusters and interpreting results.  
+---
 
-## 🔧 **Technologies Used**  
-- **Python** 🐍  
-- **Google Colab** 📓  
-- Libraries:  
-  - `sklearn`  
-  - `matplotlib`  
-  - `pandas`  
-  - `numpy`  
+## 📊 Objetivo
 
-## 🚀 **How to Use**  
-1. Clone this repository:  
-   ```bash  
-   git clone https://github.com/pathvasariah/KmeansGoogleColab.git  
+Este projeto tem como objetivo aplicar **técnicas de clusterização** com o algoritmo **KMeans** utilizando o clássico **dataset Iris**. Os dados são analisados e agrupados com base nas características das **pétalas** e **sépalas** das flores, utilizando gráficos interativos com **Plotly**.
+
+---
+
+## 🧠 O que você vai encontrar
+
+- 📥 Carregamento e exploração do dataset Iris
+- 📈 Análise estatística e visual dos dados
+- 📐 Normalização das variáveis
+- 💡 Cálculo do número ideal de clusters usando o método do cotovelo (WCSS)
+- 🤖 Aplicação do algoritmo KMeans para:
+  - Agrupar pétalas (petal length e petal width)
+  - Agrupar sépalas (sepal length e sepal width)
+- 📌 Gráficos interativos com **Plotly**
+- 🔁 Função para reutilização dos gráficos com centróides
+
+---
+
+## 🛠️ Tecnologias e Bibliotecas
+
+- Python 3.x
+- pandas
+- numpy
+- plotly
+- scikit-learn
+- jupyter notebook
+
+---
+
+## ▶️ Como executar
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/pathvasariah/KmeansGoogleColab.git
+   cd KmeansGoogleColab
