@@ -42,3 +42,45 @@ Este projeto tem como objetivo aplicar **técnicas de clusterização** com o al
    ```bash
    git clone https://github.com/pathvasariah/KmeansGoogleColab.git
    cd KmeansGoogleColab
+
+## 🇺🇸 English Version <a name="english-version"></a>
+
+## 📊 Objective
+
+This project aims to apply **clustering techniques** using the **KMeans** algorithm on the classic **Iris dataset**. The data is analyzed and grouped based on the flower’s **petal** and **sepal** features, using interactive charts created with **Plotly**.
+
+---
+
+## 🧠 What you'll find
+
+- 📥 Loading and exploring the Iris dataset  
+- 📈 Statistical and visual data analysis  
+- 📐 Feature normalization  
+- 💡 Calculating the ideal number of clusters using the elbow method (WCSS)  
+- 🤖 Applying the KMeans algorithm to:  
+  - Cluster petals (petal length and petal width)  
+  - Cluster sepals (sepal length and sepal width)  
+- 📌 Interactive charts with **Plotly**  
+- 🔁 Function for reusable charts with centroids  
+
+---
+
+## 🛠️ Technologies and Libraries
+
+- Python 3.x  
+- pandas  
+- numpy  
+- plotly  
+- scikit-learn  
+- jupyter notebook  
+
+---
+
+## ▶️ How to run
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/pathvasariah/KmeansGoogleColab.git
+   cd KmeansGoogleColab
+
